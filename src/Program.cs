@@ -37,6 +37,7 @@ namespace Dungeon {
             Control.CheckForIllegalCrossThreadCalls = false;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new AppWindow());
         }
     }
 }
